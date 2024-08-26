@@ -10983,6 +10983,9 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+/*  background-image: url(../assets/img/nel/slide1.jpg);
+  background-size: cover;
+  background-position: center;*/
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -11089,4 +11092,57 @@ html {
 
 .zoomOut{
   animation: zoomOut 1s ease;
+}
+
+.slideShowContainer{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideShowContainer > div{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: animate 25s infinite;
+  opacity: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/nel/slide1.jpg);
+  background-image: url(../assets/img/nel/slide2.jpg);
+  background-image: url(../assets/img/nel/slide3.jpg);
+  background-image: url(../assets/img/nel/slide4.jpg);
+  background-image: url(../assets/img/nel/slide5.jpg);
+}
+
+.slideShowContainer > div:nth-child(2){
+  animation-delay: 5s;
+}
+
+.slideShowContainer > div:nth-child(3){
+  animation-delay: 10s;
+}
+
+.slideShowContainer > div:nth-child(4){
+  animation-delay: 15s;
+}
+
+.slideShowContainer > div:nth-child(5){
+  animation-delay: 20s;
+}
+
+@keyframes animate{
+ 10%{opacity: 1;
+ }
+ 20%{
+  opacity: 1;
+ } 
+ 30%{
+  opacity: 0;
+ }
+ 40%{
+  transform: scale(1.2);
+ }
 }
