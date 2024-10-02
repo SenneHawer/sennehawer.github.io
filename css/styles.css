@@ -10852,6 +10852,10 @@ html {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+.page-section .page_section-heading .page_section-heading-About
+{
+  
+}
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -10985,7 +10989,7 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-/*  background-image: url(../assets/img/nel/slide1.jpg);
+  background-image: url(../assets/img/nel/slide1.jpg);
   background-size: cover;
   background-position: center;*/
 }
