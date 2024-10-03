@@ -11155,7 +11155,16 @@ html {
 
 
 
-
+.vl_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:0;
+  background-image: url("../assets/img/infinite-loop-looping.gif");
+  background-size: cover;
+}
 
 .vl_container{
   display: flex;
