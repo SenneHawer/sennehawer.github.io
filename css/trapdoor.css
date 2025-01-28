@@ -1,0 +1,36 @@
+.trapdoor{
+    display: grid;
+    grid-template-columns: 10px 0fr 10px;
+    height: 50px;
+    transition: 300ms;
+}
+
+.leftdoor{
+    transition: 300ms;
+}
+
+.leftdoorImage{
+    overflow: visible;
+    height: 100%;
+    transition: 300ms;
+    
+}
+
+.rightdoorImage{
+    overflow: visible;
+    height: 100%;
+}
+
+.middle{
+    color: white;
+    overflow: hidden;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.rightdoor{
+
+}
+
+.trapdoor:hover{
+    grid-template-columns: 10px 1fr 10px;
+}

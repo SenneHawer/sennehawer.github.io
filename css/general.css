@@ -1,0 +1,33 @@
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding-top: 55px;
+    padding-left: 250px;
+}
+
+@media (max-width:749px){
+    body{
+        padding-left:0;
+    }
+}
+@media (min-width:750px) and (max-width: 999px){
+    body{
+        padding-left: 200px;
+    }
+}
+@media (min-width:1000px) and (max-width: 1249px){
+    body{
+        padding-left: 250px;
+    }
+}
+@media (min-width: 1250px){
+    body{
+        padding-left: 300px;
+    }
+}
