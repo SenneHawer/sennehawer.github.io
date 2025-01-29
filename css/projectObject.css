@@ -1,0 +1,126 @@
+.projectObjectContainer{
+    width: 300px;
+    height: 200px;
+    transition: 300ms;
+}
+.projectObjectCornerTL{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 80px;
+    left:130px;
+    transition: 300ms;
+}
+
+.projectObjectCornerTR{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 60px;
+    left: 150px;
+    transition: 300ms;
+}
+
+.projectObjectCornerBL
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 60px;
+    left: 130px;
+    transition: 300ms;
+}
+
+.projectObjectCornerBR
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    transition: 300ms;
+}
+
+.projectObjectGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:20px;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    background-image: url("../assets/Logo_Website_rotating_td.0.gif");
+    background-position: center;
+    row-gap: 150px;
+}
+
+.projectObjectCornerTLImage{
+    overflow: visible;
+    height: 200%;
+    position: relative;
+    top: 100%;
+    scale: 4;
+    transition: 300ms;
+}
+.projectObjectCornerTRImage{
+    overflow: visible;
+    height: 200%;
+    position: relative;
+    left: -100%;
+    top: 100%;
+    scale: 4;
+    transition: 300ms;
+}
+
+.projectObjectCornerBLImage{
+    overflow: visible;
+    height: 200%;
+    position: relative;
+    scale: 4;
+    transition: 300ms;
+}
+
+.projectObjectCornerBRImage{
+    overflow: visible;
+    height: 200%;
+    position: relative;
+    scale: 4;
+    left:-100%;
+    transition: 300ms;
+}
+
+.projectObjectContainer:hover{
+    background-color: cadetblue;
+    .projectObjectCornerTL{
+        top: 0;
+        left: 0;
+    }
+    .projectObjectCornerTR{
+        top:-20px;
+        left: 280px;;
+    }
+    .projectObjectCornerBL{
+        top: 140px;
+        left: 0;
+    }
+    .projectObjectCornerBR{
+        top: 120px;
+        left: 280px;
+    }
+
+    .projectObjectCornerTLImage{
+        rotate: -57deg;
+        top: -100%;
+    }
+    .projectObjectCornerTRImage{
+        rotate: 57deg;
+        top: -100%;
+    }
+    .projectObjectCornerBLImage{
+        rotate: 57deg;
+    }
+    .projectObjectCornerBRImage{
+        rotate: -57deg;
+ 
+    }
+}

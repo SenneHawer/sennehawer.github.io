@@ -1,10 +1,21 @@
 
+
 #canvas1{
     position: absolute;
     top: 0px; left: 0px;
     width: 100%;
     height: 100%;
-    background: black;
+    z-index: 0;
+}
+
+.rotatingLogoContainer{
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rotatingLogoImage{
+    width: 100%;
+    
 }
 
 
